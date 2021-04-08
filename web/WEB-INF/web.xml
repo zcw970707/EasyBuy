@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+           version="3.0">
+<servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.ymIntnet.servlet.UserServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+</servlet-mapping>
+    <servlet>
+        <servlet-name>EasyBuyProductCategoryServlet</servlet-name>
+        <servlet-class>com.ymIntnet.servlet.EasyBuyProductCategoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EasyBuyProductCategoryServlet</servlet-name>
+        <url-pattern>/EasyBuyProductCategoryServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>BackstageProductServlet</servlet-name>
+        <servlet-class>com.ymIntnet.servlet.BackstageProductServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BackstageProductServlet</servlet-name>
+        <url-pattern>/BackstageProductServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>BackstageUserServlet</servlet-name>
+        <servlet-class>com.ymIntnet.servlet.BackstageUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BackstageUserServlet</servlet-name>
+        <url-pattern>/BackstageUserServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
